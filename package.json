@@ -1,0 +1,16 @@
+{
+  "name": "ayesha-simo-love-quest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ayesha & Simo Love Quest Android game",
+  "scripts": {
+    "build": "npx cap sync android",
+    "android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}

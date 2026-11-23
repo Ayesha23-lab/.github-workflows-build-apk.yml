@@ -1,0 +1,23 @@
+PHONE-ONLY APK BUILD GUIDE
+==========================
+
+This starter can build a DEBUG APK using GitHub Actions in the cloud.
+You do not need Android Studio on your phone.
+
+1. Download and extract this ZIP on your Android phone (Files app > Downloads > ZIP > Extract).
+2. Create/sign in to a GitHub account in Chrome. Use a parent/guardian's help if needed.
+3. On GitHub, create a NEW repository named love-quest. A private repository is fine.
+4. Open the repository > Add file > Upload files.
+5. Upload the CONTENTS of the love_quest_capacitor folder, including the hidden .github folder and its workflows/build-apk.yml file. If the phone's file picker hides dot-folders, use GitHub's web editor to create .github/workflows/build-apk.yml and paste the contents of the included build-apk.yml file.
+6. Commit the files to the main branch.
+7. Open the repository's Actions tab. Select "Build Love Quest APK" > Run workflow (if it did not start automatically).
+8. Wait for the workflow to finish with a green check.
+9. Open the completed workflow run. Under Artifacts, download "love-quest-debug-apk".
+10. Extract the downloaded artifact ZIP. It contains app-debug.apk. Tap it to install. Android may ask you to allow Chrome/Files to install unknown apps; only install the APK you built from your own repository.
+
+NOTES:
+- This creates a DEBUG APK for testing, not a Play Store release.
+- Keep the repository private if you prefer not to publish the source code.
+- Never share your GitHub password or verification codes.
+- GitHub Actions availability/quotas can change. A failed build may need troubleshooting.
+- Game progress is saved locally on that device/browser app; it does not sync between devices.

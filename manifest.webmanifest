@@ -1,0 +1,9 @@
+{
+  "name": "Ayesha & Simo \u2014 Love Quest",
+  "short_name": "Love Quest",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#1b102d",
+  "theme_color": "#32134d",
+  "description": "A cozy story adventure game."
+}
